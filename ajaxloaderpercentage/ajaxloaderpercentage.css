@@ -1,0 +1,34 @@
+.phpwldr-wrapper {
+width: 100%;
+height: 100%;
+overflow:hidden;
+background: #e9e9e9;
+box-shadow: inset 0px 0px 4px rgba(51, 51, 51, 0.57);
+-moz-box-shadow: inset 0px 0px 4px rgba(51, 51, 51, 0.57);
+-webkit-box-shadow: inset 0px 0px 4px rgba(51, 51, 51, 0.57);
+}
+.phpwldr-proc-value {
+width:0%;
+height: 100%;
+text-align: center;
+background: #f1092a;
+}
+span.phpwldr-proc-text {
+width: 40px;
+height: 100%;
+font-size: 100%;
+text-align: center;
+position: absolute;
+top: 0px;
+right: -40px;
+background: #ccc;
+color: #f1092a;
+display: block;
+}
+.phpwldr-warning {
+color: red;
+border: 1px solid red;
+width: 100%;
+display: block;
+text-align: center;
+}
